@@ -34,7 +34,7 @@ This project builds a movie recommendation system using the MovieLens dataset an
 
 Our Goal: Predicting Movie Ratings with Accuracy. This project aims to predict movie ratings as accurately as possible compared to actual ratings in the validation set. We'll use Root Mean Squared Error (RMSE) to measure accuracy. Our target is to achieve a final predicted RMSE lower than 0.86490. 
 
-Method : After examining the data we need to come up with the best approach to create this model. The final hold-out test set has only been used for validating the final model. Till then we use 20% of edx data set as the test set. 
+Method : After examining the data, we need to come up with the best approach to create a model. The final hold-out test set will only be used for validating the final model, till then we will use 20% of edx data set as the test data set. 
 
 \newpage
 
