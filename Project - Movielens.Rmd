@@ -32,7 +32,9 @@ knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE, error=FALSE, ti
 
 This project builds a movie recommendation system using the MovieLens dataset and learnings from HarvardX's Data Science Professional Certificate program.
 
-Our Goal: Predicting Movie Ratings with Accuracy. This project aims to predict movie ratings as accurately as possible compared to actual ratings in the validation set. We'll use Root Mean Squared Error (RMSE) to measure accuracy. Our target is to achieve a final predicted RMSE lower than 0.86490.
+Our Goal: Predicting Movie Ratings with Accuracy. This project aims to predict movie ratings as accurately as possible compared to actual ratings in the validation set. We'll use Root Mean Squared Error (RMSE) to measure accuracy. Our target is to achieve a final predicted RMSE lower than 0.86490. 
+
+Method : After examining the data we need to come up with the best approach to create this model. The final hold-out test set has only been used for validating the final model. Till then we use 20% of edx data set as the test set. 
 
 \newpage
 
@@ -588,3 +590,13 @@ Our project employed a machine learning algorithm for movie rating prediction us
 ## Limitation
 
 While further improvements to RMSE might be achievable by incorporating additional factors like release year, this project prioritizes achieving the defined target of 0.86490. Therefore, the model focused on movie and user effects to deliver a performant solution within the project scope.
+
+## Future Work
+
+Here we explored basic models for predicting ratings. There are some advanced techniques to consider next:
+
+* Matrix Factorization: Breaks down user-item interactions to understand what influences ratings.
+* Content-Based Filtering: Recommends similar items users liked before, based on item features.
+* Collaborative Filtering: Recommends items similar users enjoyed, leveraging their preferences.
+
+The recommenderlab package lets you try these methods and build more powerful recommendation systems.
